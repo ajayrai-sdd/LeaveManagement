@@ -42,7 +42,7 @@ namespace BuildingBlock.Shared
                     IsBodyHtml = true // Set to true if your email body is HTML
                 };
                 mailMessage.To.Add(toEmail);
-                mailMessage.To.Add("kamalsinghgaira@smartdatainc.net");
+                mailMessage.To.Add("ajayrai@smartdatainc.net");
 
                 // Configure the SMTP client
                 var smtpClient = new SmtpClient(smtpServer, port)
